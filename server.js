@@ -92,5 +92,7 @@ app.get('/messages/sync', (req, resp) => {
     })
 })
 
+//serve static assets 
+
 //listenners
 app.listen(port, () => console.log(`Listening on localhost:${port}`));
